@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">机智</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="diy_parameter">参数调试</string>
+    <string name="fun_offsetcalibrate">校准</string>
+    <string name="action_settings">Settings</string>
+    <string name="bluetooth_noconnec_toast">请先连接蓝牙</string>
+</resources>

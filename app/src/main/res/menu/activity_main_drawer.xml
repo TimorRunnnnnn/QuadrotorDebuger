@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/nav_menu">
+
+    <item android:title="连接模式">
+        <menu>
+            <item
+                android:id="@+id/nav_diy"
+                android:title="@string/diy_parameter"/>
+            <item
+                android:id="@+id/nav_zero"
+                android:title="零漂校准"/>
+            <item
+                android:id="@+id/nav_broadsetting"
+                android:title="飞控设置"/>
+            <item
+                android:id="@+id/nav_textstream"
+                android:title="字节流"/>
+        </menu>
+    </item>
+
+            <item
+                android:id="@+id/nav_blPair"
+                android:title="蓝牙连接"/>
+            <item
+                android:id="@+id/nav_adbout"
+                android:title="关于"/>
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.t.as.jizhi3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".Data"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon_miao2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BlueToothScan"
+            android:label="蓝牙连接"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".Fun_TextStream"
+            android:label="字节流"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".Fun_Parameter"
+                  android:label="@string/diy_parameter"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Fun_OffsetCalibrate"
+                  android:label="@string/fun_offsetcalibrate"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:windowSoftInputMode="adjustPan" />
+    </application>
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+</manifest>
